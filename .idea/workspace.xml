@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a844711e-39f3-45d8-8935-86fd0a0fe004" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.scala" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/week1_programming_challenges/2_maximum_pairwise_product/MaxPairwiseProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/week1_programming_challenges/2_maximum_pairwise_product/MaxPairwiseProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/2_maximum_pairwise_product/MaxPairwiseProduct.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/2_maximum_pairwise_product/by_learners/max_pairwise_product.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1_programming_challenges/2_maximum_pairwise_product/max_pairwise_product.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/1_fibonacci_number/Fibonacci.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/1_fibonacci_number/by_learners/fibonacci.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/1_fibonacci_number/fibonacci.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/1_fibonacci_number/fibonacci.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/FibonacciLastDigit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/by_learners/fibonacci_last_digit.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/fibonacci_last_digit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/2_last_digit_of_fibonacci_number/fibonacci_last_digit.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/3_greatest_common_divisor/GCD.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/3_greatest_common_divisor/by_learners/gcd.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/3_greatest_common_divisor/gcd.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/3_greatest_common_divisor/gcd.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/4_least_common_multiple/LCM.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/4_least_common_multiple/by_learners/lcm.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/4_least_common_multiple/lcm.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/4_least_common_multiple/lcm.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/5_fibonacci_number_again/FibonacciHuge.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/5_fibonacci_number_again/by_learners/fibonacci_huge.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/5_fibonacci_number_again/fibonacci_huge.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/5_fibonacci_number_again/fibonacci_huge.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/FibonacciSumLastDigit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/by_learners/fibonacci_sum_last_digit.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/fibonacci_sum_last_digit.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/fibonacci_sum_last_digit.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/FibonacciPartialSum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/by_learners/fib_partial_sum.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again/fibonacci_partial_sum.hs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2_algorithmic_warmup/8_last_digit_of_the_sum_of_squares_of_fibonacci_numbers/fibonacci_sum_squares.cpp" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +63,8 @@
       <file leaf-file-name="MaxPairwiseProduct.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week1_programming_challenges/2_maximum_pairwise_product/MaxPairwiseProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -67,9 +100,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="width" value="1602" />
-    <option name="height" value="873" />
+    <option name="x" value="1600" />
+    <option name="width" value="1906" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -101,6 +134,59 @@
               <item name="week1_programming_challenges" type="462c0819:PsiDirectoryNode" />
               <item name="2_maximum_pairwise_product" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="1_fibonacci_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="2_last_digit_of_fibonacci_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="3_greatest_common_divisor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="4_least_common_multiple" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="5_fibonacci_number_again" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="6_last_digit_of_the_sum_of_fibonacci_numbers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="7_last_digit_of_the_sum_of_fibonacci_numbers_again" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmicToolbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmicToolbox" type="462c0819:PsiDirectoryNode" />
+              <item name="week2_algorithmic_warmup" type="462c0819:PsiDirectoryNode" />
+              <item name="8_last_digit_of_the_sum_of_squares_of_fibonacci_numbers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,6 +200,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,7 +295,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1602" height="873" extended-state="6" />
+    <frame x="1599" y="0" width="1922" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -217,7 +308,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.246875" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32958034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -260,13 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Integer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6354">
@@ -274,13 +358,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/week1_programming_challenges2/1_sum_of_two_digits/APlusB.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers/FibonacciSumLastDigit.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1_programming_challenges/1_sum_of_two_digits/APlusB.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/week1_programming_challenges/2_maximum_pairwise_product/MaxPairwiseProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

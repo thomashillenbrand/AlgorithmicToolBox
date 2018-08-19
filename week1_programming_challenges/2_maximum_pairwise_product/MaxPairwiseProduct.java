@@ -4,28 +4,29 @@ import java.io.*;
 import static java.lang.Integer.max;
 
 public class MaxPairwiseProduct {
-    static int getMaxPairwiseProduct(int[] numbers) {
-        int max_product = 0;
+    static long getMaxPairwiseProduct(long[] numbers) {
+        long max_product = 0;
         int n = numbers.length;
 
+
+        int index1 = 0;
         for (int first = 0; first < n; ++first) {
-            for (int second = first + 1; second < n; ++second) {
-                if(first != second) {
-                    max_product = max(max_product,
-                            numbers[first] * numbers[second]);
-                }
-            }
+            if(numbers[first] > numbers[index1]) index1 = first;
         }
 
-        return max_product;
+        int index2 = (index1 == 0) ? 1 : 0;
+        for (int second = 1; second < n; ++second) {
+            if(numbers[second] > numbers[index2] && second != index1) index2 = second;
+        }
+        return numbers[index1] * numbers[index2];
     }
 
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner(System.in);
-        int n = scanner.nextInt();
-        int[] numbers = new int[n];
+        int n = (int) scanner.nextNum();
+        long[] numbers = new long[n];
         for (int i = 0; i < n; i++) {
-            numbers[i] = scanner.nextInt();
+            numbers[i] = scanner.nextNum();
         }
         System.out.println(getMaxPairwiseProduct(numbers));
     }
@@ -54,8 +55,8 @@ public class MaxPairwiseProduct {
             return st.nextToken();
         }
 
-        int nextInt() {
-            return Integer.parseInt(next());
+        long nextNum() {
+            return Long.parseLong(next());
         }
     }
 
