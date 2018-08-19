@@ -1,6 +1,8 @@
 import java.util.*;
 import java.io.*;
 
+import static java.lang.Integer.max;
+
 public class MaxPairwiseProduct {
     static int getMaxPairwiseProduct(int[] numbers) {
         int max_product = 0;
@@ -8,8 +10,10 @@ public class MaxPairwiseProduct {
 
         for (int first = 0; first < n; ++first) {
             for (int second = first + 1; second < n; ++second) {
-                max_product = max(max_product,
-                    numbers[first] * numbers[second])
+                if(first != second) {
+                    max_product = max(max_product,
+                            numbers[first] * numbers[second]);
+                }
             }
         }
 
