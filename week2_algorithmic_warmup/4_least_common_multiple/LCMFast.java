@@ -12,7 +12,7 @@ public class LCMFast {
 
     private static int gcd(int a, int b) {
         int current_gcd = 1;
-        int big, small, remainder, quotient;
+        int big, small, remainder;
         if (a > b) {
             big = a;
             small = b;
