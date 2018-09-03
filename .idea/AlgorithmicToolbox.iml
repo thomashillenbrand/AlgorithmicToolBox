@@ -13,6 +13,12 @@
       <sourceFolder url="file://$MODULE_DIR$/week2_algorithmic_warmup/6_last_digit_of_the_sum_of_fibonacci_numbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week2_algorithmic_warmup/7_last_digit_of_the_sum_of_fibonacci_numbers_again" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/week2_algorithmic_warmup/8_last_digit_of_the_sum_of_squares_of_fibonacci_numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week3_greedy_algorithms/1_money_change" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week3_greedy_algorithms/2_maximum_value_of_the_loot" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week3_greedy_algorithms/3_maximum_advertisement_revenue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week3_greedy_algorithms/4_collecting_signatures" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week3_greedy_algorithms/5_maximum_number_of_prizes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/week3_greedy_algorithms/6_maximum_salary" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

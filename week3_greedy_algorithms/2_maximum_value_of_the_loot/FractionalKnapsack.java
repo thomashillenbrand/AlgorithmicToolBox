@@ -1,11 +1,44 @@
-import java.util.Scanner;
+import java.text.DecimalFormat;
+import java.util.*;
 
+/**
+ * Algorithm to solve the Fractional Knapsack problem
+ */
 public class FractionalKnapsack {
-    private static double getOptimalValue(int capacity, int[] values, int[] weights) {
+    private static String getOptimalValue(int capacity, int[] values, int[] weights) {
+        int length = values.length;
         double value = 0;
-        //write your code here
+        DecimalFormat df = new DecimalFormat("#.0000");
 
-        return value;
+        // put ratios and corresponding index in map
+        Map<Double, Integer> ratioMap = new HashMap<>();
+        Double[] ratios = new Double[length];
+        for (int i = 0; i < length; i++) {
+            ratios[i] = (1.0 * values[i]) / (1.0 * weights[i]);
+            ratioMap.put(ratios[i], i);
+        }
+
+        // sort list of ratios
+        Arrays.sort(ratios, Collections.reverseOrder());
+
+        // loop through ratios and get corresponding weight/value
+        // add max amount possible to knapsack until full
+        for (int j=0; j<length; j++) {
+            if(capacity == 0) break;
+            int index = ratioMap.get(ratios[j]);
+            int currentWeight = weights[index];
+
+            if (currentWeight <= capacity) currentWeight = weights[index];
+            else currentWeight = capacity;
+
+            value += currentWeight*ratios[j];
+            capacity -= currentWeight;
+
+        }
+
+        // return formatted value
+        return df.format(value);
+
     }
 
     public static void main(String args[]) {

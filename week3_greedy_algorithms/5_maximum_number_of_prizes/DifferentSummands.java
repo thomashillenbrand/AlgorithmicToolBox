@@ -1,9 +1,37 @@
 import java.util.*;
 
 public class DifferentSummands {
+
+    /**
+     * Algorithm to find the max number of summands needed for a given integer n
+     * @param n
+     * @return List of max number of summands needed for integer n
+     */
     private static List<Integer> optimalSummands(int n) {
         List<Integer> summands = new ArrayList<Integer>();
-        //write your code here
+        // base case
+        if(n<=2) summands.add(n);
+        // everything else
+        else{
+            int counter = 1;
+            while(n > 0){
+                if(n==counter) {
+                    n = 0;
+                    summands.add(counter);
+
+                } else if (n-counter > counter){
+                    n -= counter;
+                    summands.add(counter);
+
+                } else {
+                    summands.add(n);
+                    n=0;
+                }
+                counter++;
+
+            }
+
+        }
         return summands;
     }
     
