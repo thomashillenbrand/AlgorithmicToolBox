@@ -43,7 +43,7 @@ public class LargestNumber {
             a.add(scanner.next());
         }
         System.out.println(largestNumber(a));
-        //System.out.println(isGreaterOrEqual(Integer.parseInt(a.get(0)), Integer.parseInt(a.get(1))));
+
     }
 }
 
