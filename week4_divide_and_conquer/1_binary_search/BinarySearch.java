@@ -1,21 +1,41 @@
-import java.io.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class BinarySearch {
 
     static int binarySearch(int[] a, int x) {
-        int left = 0, right = a.length;
-        //write your code here
 
-        return -1;
-    }
+        int low = 0, high = a.length;
+        int mid;
 
-    static int linearSearch(int[] a, int x) {
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] == x) return i;
+        while(low < high){
+
+            mid = (low+high)/2;
+            if(a[mid] == x) return mid;
+            else if (a[mid] > x) {
+                high = mid-1;
+            }
+            else{
+                low = mid+1;
+            }
+
+
         }
+
+        if(low == high && (high >= 0 && low < a.length && a[low] == x)) return low;
         return -1;
+
     }
+
+//    static int linearSearch(int[] a, int x) {
+//        for (int i = 0; i < a.length; i++) {
+//            if (a[i] == x) return i;
+//        }
+//        return -1;
+//    }
 
     public static void main(String[] args) {
         FastScanner scanner = new FastScanner(System.in);
@@ -27,13 +47,14 @@ public class BinarySearch {
         int m = scanner.nextInt();
         int[] b = new int[m];
         for (int i = 0; i < m; i++) {
-          b[i] = scanner.nextInt();
+            b[i] = scanner.nextInt();
         }
         for (int i = 0; i < m; i++) {
             //replace with the call to binarySearch when implemented
-            System.out.print(linearSearch(a, b[i]) + " ");
+            System.out.print(binarySearch(a, b[i]) + " ");
         }
     }
+
     static class FastScanner {
         BufferedReader br;
         StringTokenizer st;
